@@ -1,0 +1,37 @@
+
+body, html {
+    margin: 0;
+    padding: 0;
+   height: 100%; 
+
+}
+.inner-wrap{
+    position: relative;
+}
+
+.logo {
+    position: absolute;
+    top: 32px; /* Ajusta la posición vertical */
+    left: 10px; /* Ajusta la posición horizontal*/
+    width: 300px; /* Ajusta el tamaño del logo */
+    opacity: 0.7; /* Valor de transparencia */
+    border-radius: 40%;
+
+}
+
+.animated-header {
+    position: relative;
+    height: 100px; /* Ajusta la altura según tus necesidades */
+    background-color: #3498db; /* Cambia el color de fondo si lo deseas */
+    text-align: center;
+    color: #fff; /* Cambia el color del texto si lo deseas */
+}
+
+@keyframes animate {
+    0% {
+        transform: translateX(0) translateY(-10px);
+    }
+    100% {
+        transform: translateX(-100%) translateY(-10px);
+    }
+}
