@@ -1,4 +1,4 @@
 
 NOMBRE BASE DE DATOS: empleados
-USUARIO: admin
+USUARIO: root
 CONTRASEÑA: 0103
