@@ -1,0 +1,4 @@
+
+NOMBRE BASE DE DATOS: empleados
+USUARIO: admin
+CONTRASEÑA: 0103
